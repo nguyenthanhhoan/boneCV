@@ -17,8 +17,8 @@ using namespace cv;
 int main()
 {
     VideoCapture capture(0);
-    capture.set(CV_CAP_PROP_FRAME_WIDTH,1920);
-    capture.set(CV_CAP_PROP_FRAME_HEIGHT,1080);
+    capture.set(CV_CAP_PROP_FRAME_WIDTH,1024);
+    capture.set(CV_CAP_PROP_FRAME_HEIGHT,768);
     if(!capture.isOpened()){
 	    cout << "Failed to connect to the camera." << endl;
     }
