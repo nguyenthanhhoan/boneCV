@@ -581,11 +581,11 @@ static void usage(FILE *fp, int argc, char **argv)
                  "-u | --userp         Use application allocated buffers\n"
                  "-o | --output        Outputs stream to stdout\n"
                  "-f | --format        Force format to 640x480 YUYV\n"
-		 "-F | --formatH264    Force format to 1920x1080 H264\n"
+		 "-F | --formatH264    Force format to 1024x768 H264\n"
                  "-c | --count         Number of frames to grab [%i] - use 0 for infinite\n"
                  "\n"
 		 "Example usage: capture -F -o -c 300 > output.raw\n"
-		 "Captures 300 frames of H264 at 1920x1080 - use raw2mpg4 script to convert to mpg4\n",
+		 "Captures 300 frames of H264 at 1024x768 - use raw2mpg4 script to convert to mpg4\n",
                  argv[0], dev_name, frame_count);
 }
 
